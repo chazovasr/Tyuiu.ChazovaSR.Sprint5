@@ -11,6 +11,7 @@ namespace Tyuiu.ChazovaSR.Sprint5.Task0.V19.Test
         public void CheckedExistsFile()
         {
             string path = $@"C:\Users\chazo\source\repos\Tyuiu.ChazovaSR.Sprint5\Tyuiu.ChazovaSR.Sprint5.Task0.V19\bin\Debug\OutPutFileTask0.txt";
+            
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
