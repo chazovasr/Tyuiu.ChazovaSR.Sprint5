@@ -13,7 +13,6 @@ namespace Tyuiu.ChazovaSR.Sprint5.Task1.V2.Lib
         {
             string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask1.txt";
 
-
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
 
